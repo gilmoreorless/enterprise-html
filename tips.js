@@ -518,7 +518,7 @@ tips.push({
 		'	<!-- SAFE Java fallback -->',
 		'	<applet code="search-form.class" width="100" height="30">',
 		'		<!-- SAFE fallback to XHTML (NOT HTML5!!!!!!) -->',
-		'		<input type="text" name="q" />',
+		'		<input type="text" name="search" />',
 		'	</applet>',
 		'</object>'
 	]
