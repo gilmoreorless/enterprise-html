@@ -485,16 +485,16 @@ tips.push({
 });
 
 tips.push({
-        author: 'Walnuts',
-        message: 'Open 20 %lt;table%gt; tags.  Close one of them.',
-        example: [
-                '<table>',
-                '  <table>',
-                '    <table>',
-                '      ...',
-                '        ...',
-                '</table>',
-        ]
+	author: 'Walnuts',
+	message: 'Open 20 &lt;table&gt; tags.  Close one of them.',
+	example: [
+		'<table>',
+		'  <table>',
+		'    <table>',
+		'      ...',
+		'        ...',
+		'</table>'
+	]
 });
 
 module.exports = tips;
