@@ -6,7 +6,7 @@ var express = require('express')
   , io = require('socket.io');
 
 var app = express.createServer()
-  , socket = io.listen(app);;
+  , socket = io.listen(app);
 
 app.configure(function () {
 	app.use(express.methodOverride());
