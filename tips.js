@@ -497,4 +497,14 @@ tips.push({
         ]
 });
 
+tips.push({
+	author: 'fiveminuteargument',
+	message: 'Ensuring your design is robust, even for those with CSS disabled',
+	example: [
+		'<a href="/home">',
+		'    <img src="logo.gif" border="0">',
+		'</a>'
+	]
+});
+
 module.exports = tips;
