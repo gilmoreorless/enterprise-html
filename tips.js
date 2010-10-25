@@ -498,8 +498,8 @@ tips.push({
 });
 
 tips.push({
-	author: 'fiveminuteargument',
-	message: 'Ensuring your design is robust, even for all those visitors with CSS disabled',
+	author: '5minuteargument',
+	message: 'Ensuring your design is <em>robust</em>, even for all those visitors with CSS disabled',
 	example: [
 		'<a href="/home">',
 		'    <img src="logo.gif" border="0">',
