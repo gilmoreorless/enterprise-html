@@ -507,4 +507,21 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'mathias',
+	message: 'Holding off on <em>HTML5</em> because <em>it’s not safe</em>; using <em>Flash</em> and <em>Java</em> instead',
+	example: [
+		'<!-- THE FOLLOWING LINE IS COMMENTED OUT FOR SECURITY REASONS -->',
+		'<!-- <input type="search" name="search" placeholder="Search…"> -->',
+		'<object width="100" height="30" type="application/x-shockwave-flash" data="search-form.swf">',
+		'	<param name="movie" value="search-form.swf" />',
+		'	<!-- SAFE Java fallback -->',
+		'	<applet code="search-form.class" width="100" height="30">',
+		'		<!-- SAFE fallback to XHTML (NOT HTML5!!!!!!) -->',
+		'		<input type="text" name="q" />',
+		'	</applet>',
+		'</object>'
+	]
+});
+
 module.exports = tips;
