@@ -524,4 +524,9 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'bentruyman',
+	message: 'Using Spacer SWFs to Layout A Table-based Flash Site'
+});
+
 module.exports = tips;
