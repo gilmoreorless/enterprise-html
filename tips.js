@@ -529,4 +529,12 @@ tips.push({
 	message: 'Using Spacer SWFs to Layout A Table-based Flash Site'
 });
 
+tips.push({
+    author: 'richiesee',
+    message: 'Bolding the entire website because the text looks too thin in Internet Explorer',
+    example: [
+        'body { font-weight: bold !important; }'
+    ]
+});
+
 module.exports = tips;
