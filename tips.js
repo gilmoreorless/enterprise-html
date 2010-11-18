@@ -530,14 +530,6 @@ tips.push({
 });
 
 tips.push({
-	author: 'richiesee',
-	message: 'Bolding the entire website because the text looks too thin in Internet Explorer',
-	example: [
-		'body { font-weight: bold !important; }'
-	]
-});
-
-tips.push({
 	author: 'andrewabogado',
 	message: 'Wrap around a div element in an anchor element to ensure <em>kick-ass block-level link</em>',
 	example: [
