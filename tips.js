@@ -543,4 +543,19 @@ tips.push({
 	]
 });
 
+tips.push({
+	author: 'iamnotyourbroom',
+	message: 'Make <em>absolutely sure</em> that important JS files are loaded',
+	example: [
+		'<head>',
+		'   <script type="text/javascript" src="http://cdn.externalsite.com/js/jquery-latest.js"></script>',
+		'   <script type="text/javascript" src="/files/scripts/jquery-1.3.2.js"></script>',
+		'   <script type="text/javascript" src="/files/scripts/jquery.validation.js"></script>',
+		'   <script type="text/javascript" src="/files/scripts/jquery.form.js"></script>',
+		'   <script type="text/javascript" src="/files/scripts/jquery.cycle.js"></script>',
+		'   <script type="text/javascript" src="/files/scripts/jquery.validation.js"></script>',
+		'</head>'
+	]
+});
+
 module.exports = tips;
